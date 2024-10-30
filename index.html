@@ -30,7 +30,8 @@
     .manrope {
       font-family: "Manrope", serif;
     }
-    .nothing{
+
+    .nothing {
       font-family: "Nothing You Could Do", cursive;
     }
   </style>
@@ -252,8 +253,8 @@
           </button>
         </div>
         <!-- row 1 start -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-7 mt-8">
-          <div class="col-span-2 bg-white rounded-2xl">
+        <div class="grid grid-cols-1 lg:grid-cols-9 gap-7 mt-8">
+          <div class="lg:col-span-6 bg-white rounded-2xl">
             <div class="flex lg:flex-row flex-col gap-5 border border-[#E9E9E9] p-6 rounded-2xl items-center">
               <!-- images content -->
               <div class="w-full lg:w-auto">
@@ -276,29 +277,30 @@
               </div>
             </div>
           </div>
-          <div class="bg-white border border-[#E9E9E9] p-6 w-full lg:w-[375px] rounded-2xl">
+          <div class="bg-white border lg:col-span-3 border-[#E9E9E9] p-6 w-full lg:w-[375px] rounded-2xl">
             <img class="w-full" src="./images/img2.png" alt="">
           </div>
         </div>
         <!-- row 1 end -->
 
         <!-- row 2 start -->
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-7 mt-6">
-          <div
-            class="bg-white lg:col-span-1 w-full  mx-auto lg:mx-0 border border-[#E9E9E9] p-6 lg:w-[275px] rounded-2xl">
-            <img class="w-full bg-cover" src="./images/img3.png" alt="">
+        <div class="grid grid-cols-1 lg:grid-cols-9 gap-7 mt-6">
+          <div class="bg-white lg:col-span-2 w-full lg:w-auto  mx-auto lg:mx-0 border border-[#E9E9E9] p-6 rounded-2xl">
+            <img class="w-full lg:w-auto bg-cover" src="./images/img3.png" alt="">
           </div>
-          <div class="col-span-2 bg-white rounded-2xl">
+          <div class="lg:col-span-5 bg-white rounded-2xl">
             <div class="flex lg:flex-row flex-col gap-5 border border-[#E9E9E9] p-6 rounded-2xl items-center">
               <!-- images content -->
-              <div class="w-full">
-                <img class="w-full" src="./images/img4.png" alt="">
+              <div class="w-full lg:w-auto">
+                <img class="w-full lg:w-auto object-cover" src="./images/img1.png" alt="">
               </div>
               <!-- text content -->
               <div>
                 <h3 class="text-2xl font-extrabold text-[#494949]">Commercial</h3>
-                <p class="mt-4 font-medium text-[#737373]">TThe barn house captivates with its blend of rustic charm and
-                  modern. </p>
+                <p class="mt-4 font-medium text-[#737373]">The barn house captivates with its blend of <br> rustic charm
+                  and modern. The barn house <br> captivates
+                  with
+                  its blend of <br> rustic charm and modern .</p>
                 <button class="flex items-center gap-2 text-xl font-extrabold rounded-[36px] mt-5">View
                   Details<span class="bg-[#ABEF5F] h-10 w-10 rounded-full items-center justify-center flex"><svg
                       xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -309,8 +311,12 @@
               </div>
             </div>
           </div>
-          <div class="col-span-1 w-full border bg-white border-[#E9E9E9] p-6 lg:w-[275px] rounded-2xl">
-            <img class="w-full" src="./images/img5.png" alt="">
+          <div class="lg:col-span-2 w-full lg:w-auto border bg-white border-[#E9E9E9] p-6 rounded-2xl">
+            <img class="w-full lg:w-auto" src="./images/img5.png" alt="">
+          </div>
+          <div
+            class=" lg:hidden bg-white lg:col-span-2 w-full lg:w-auto  mx-auto lg:mx-0 border border-[#E9E9E9] p-6 rounded-2xl">
+            <img class="w-full lg:w-auto bg-cover" src="./images/img3.png" alt="">
           </div>
         </div>
         <!-- row 2 end -->
@@ -324,25 +330,28 @@
         <div class="text-center">
           <h1 class="text-[40px] font-bold text-[#212121]">Professionally Designed <br>
             Websites to get you started</h1>
-            <p class="nothing font-extrabold text-[40px] mt-6">Fully functional demo website to get you started.</p>
+          <p class="nothing font-extrabold text-[40px] mt-6">Fully functional demo website to get you started.</p>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-5 items-center mt-16 lg:space-y-0 space-y-8">
           <div class="mx-auto">
-            <div class=" bg-white py-9 w-52 rounded-2xl"><img class="h-14 w-14 mx-auto" src="./icons/theme.png" alt=""></div>
+            <div class=" bg-white py-9 w-52 rounded-2xl"><img class="h-14 w-14 mx-auto" src="./icons/theme.png" alt="">
+            </div>
             <p class="pl-10 mt-5 font-bold text-[18px]">1. Install Theme</p>
           </div>
           <div class="lg:flex hidden">
             <img src="./icons/arrow-v3.png" alt="">
           </div>
           <div class="mx-auto">
-            <div class=" bg-white py-9 w-52 rounded-2xl"><img class="h-14 w-14 mx-auto" src="./icons/demo.png" alt=""></div>
+            <div class=" bg-white py-9 w-52 rounded-2xl"><img class="h-14 w-14 mx-auto" src="./icons/demo.png" alt="">
+            </div>
             <p class="pl-10 mt-5 font-bold text-[18px]">2. Select a Demo</p>
           </div>
           <div class="lg:flex hidden">
             <img src="./icons/arrow-v3.png" alt="">
           </div>
           <div class="mx-auto">
-            <div class=" bg-white py-9 w-52 rounded-2xl"><img class="h-14 w-14 mx-auto" src="./icons/ready.png" alt=""></div>
+            <div class=" bg-white py-9 w-52 rounded-2xl"><img class="h-14 w-14 mx-auto" src="./icons/ready.png" alt="">
+            </div>
             <p class="pl-10 mt-5 font-bold text-[18px]">3. Ready to go</p>
           </div>
         </div>
